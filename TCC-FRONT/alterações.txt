@@ -1,0 +1,23 @@
+.maincardapio{
+    display: flex;
+    position: relative;
+    left: 5%;
+    height: 35%;
+    width: 90%;
+    background-color: #000000bd;
+    box-shadow: 6px -5px rgba(255, 217, 0, 0.568);
+    padding: 1%;
+    color: #ffffff;
+    padding-top: 5%;
+  }
+.imagemcard img{
+    position: relative;
+    right: 9%;
+    width: 60%;
+    height: 70%;
+    border: 5px solid #000000;
+}
+.categoria{
+    position: relative;
+    left: 40%;
+}
