@@ -165,6 +165,7 @@ footer {
     height: 50px;
     color: #ffffff;
     margin: 0%;
+    margin-top: -3%;
     text-orientation: upright;
 }
 
@@ -354,93 +355,10 @@ footer {
 }
 
 /*----------------------------------------------cardapio tela inicial-----------------------------------------------------------------*/
-.carrossel2 {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    left: 0%;
-    padding-top: 1%px;
-    border: #000000 solid;
-    border-radius: 10px;
 
 
 
-}
 
-.carrossel2 .pratos2 {
-    display: flex;
-    width: 500%;
-    animation-name: animacao2;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-}
-
-.carrrossel2 .pratos2 img {
-    width: 19, 9%;
-}
-
-@keyframes animacao2 {
-    00% {
-        margin-left: 0;
-    }
-
-    20% {
-        margin-left: 0;
-    }
-
-    25% {
-        margin-left: -100%;
-    }
-
-    45% {
-        margin-left: -100%;
-    }
-
-    50% {
-        margin-left: -200%;
-    }
-
-    70% {
-        margin-left: -200%;
-    }
-
-    75% {
-        margin-left: -300%;
-    }
-
-    95% {
-        margin-left: -300%;
-    }
-
-    100% {
-        margin-left: -400%;
-    }
-
-}
-
-.carrossel-card {
-    border: 10px solid black;
-
-}
-
-.cardapio-nome {
-    margin: 0%;
-    width: 100%;
-    height: 80px;
-    background-color: rgb(255, 35, 35);
-    border-top: #000000 solid 3px;
-
-}
-
-.cardapio-nome h2 {
-    text-align: center;
-    align-items: center;
-    color: #ffffff;
-    font-size: 295%;
-    margin: 0%;
-
-}
 
 .VERMAIS {
     position: relative;
@@ -452,22 +370,57 @@ footer {
 }
 
 .cardapio-inicio {
-    display: flex;
+    
     width: 100%;
     height: 800px;
     align-items: center;
 
     color: #ffffff;
-    font-size: 75%;
-    background-color: rgb(255, 35, 35);
+    
+    background-image: url('teste.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+
+
 
 
 }
 
+.cardapio-inicio div:hover {
+
+    animation: ani2 0.2s linear both;
+
+}
+
+@keyframes ani2 {
+    100% {
+        transform: translateY(-10px)
+    }
+}
+
+.cardapio-inicio div {
+    width: 200px;
+    height: 300px;
+    margin: 0.1%;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 2%;
+    position: relative;
+    left: 7%;
 
 
+}
 
-
+.cardapio-inicio div img {
+    width: 190px;
+    height: 130px;
+    padding-top: 0%;
+    border-radius: 10px;
+    margin-top: 0%;
+    align-items: center;
+}
 
 .cardapio-inicio h3 {
     color: #ffffff;
@@ -481,6 +434,13 @@ footer {
 
 
 }
+.cardapio-inicio h2{
+    font-size: 245%;
+    padding-top:1% ;
+    text-align: center;
+    text-decoration: underline;
+}
+
 
 /*pagina reserva*/
 .reserva-div {
@@ -539,6 +499,7 @@ textarea {
     width: 30%;
     height: 78%;
     z-index: 3;
+
     color: #ffd700;
     text-align: center;
     align-items: center;
@@ -552,3 +513,5 @@ textarea {
     text-decoration: underline;
     text-decoration-color: #ffd700;
 }
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------*/
