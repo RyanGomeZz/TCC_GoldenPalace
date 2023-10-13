@@ -75,8 +75,8 @@ form {
 .form {
     position: relative;
     left: 35%;
-    height: 600px;
-    width: 500px;
+    height: 73%;
+    width: 30%;
     background-color: #000000bd;
     text-align: center;
     border-radius: 30px;
@@ -168,10 +168,10 @@ footer {
 }
 
 .rodape {
-   
+
     left: 0;
     right: 0;
-   margin:0;
+    margin: 0;
     width: 100%;
     text-align: right;
 
@@ -207,9 +207,10 @@ footer {
 }
 
 /*----------------------------------------------Carrossel----------------------------------------*/
-.cr1:hover{
+.cr1:hover {
     opacity: 100;
 }
+
 .carrossel {
     width: 860px;
     height: 570px;
@@ -471,11 +472,11 @@ footer {
 
     color: #ffffff;
     width: 30%;
-    height: 50%;
+    height: 70%;
     align-items: center;
     text-align: center;
     position: relative;
-    left: 38%;
+    left: 35%;
     background-color: #000000bd;
     border-radius: 2%;
     box-shadow: 6px -5px rgba(255, 217, 0, 0.568);
@@ -485,6 +486,15 @@ footer {
 
 .reserva-div input {
     width: 70%;
+
+}
+
+.reserva-div button {
+    border-radius: 10%;
+    background-color: rgba(255, 217, 0, 0.805);
+    color: #000000;
+    box-shadow: none;
+    
 }
 
 textarea {
@@ -564,4 +574,67 @@ textarea {
 .categoria {
     position: relative;
     left: 40%;
+}
+
+/*--------------------------------------LOGIN-------------------------------------------*/
+.login {
+    color: #ffffff;
+    background-color: #000000bd;
+    box-shadow: 6px -5px rgba(255, 217, 0, 0.568);
+    align-items: center;
+    width: 20%;
+    position: relative;
+    left: 40%;
+    border-radius: 3%;
+}
+
+.login p {
+    text-align: left;
+    margin-left: 23%;
+}
+
+.login h1 {
+    text-decoration: underline;
+    padding-top: 9%;
+}
+
+.login a {
+    color: #3636cf;
+    text-decoration: underline;
+}
+
+.login button {
+    border-radius: 10%;
+    background-color: rgba(255, 217, 0, 0.805);
+    color: #000000;
+    box-shadow: none;
+
+}
+
+.login button:hover {
+
+    animation: ani4 0.25s linear both;
+
+}
+
+@keyframes ani4 {
+    100% {
+        transform: scale(0.99)
+    }
+}
+/*-----------------------------Fale Conosco-----------------------------------------*/
+.faleconosco{
+    color: #ffffff;
+    background-color: #000000bd;
+    box-shadow: 6px -5px rgba(255, 217, 0, 0.568);
+    align-items: center;
+    width: 25%;
+    position: relative;
+    left: 37%;
+    border-radius: 3%;  
+
+}
+.faleconosco textarea{
+    border-radius: 4%;
+    border: 5% solid #000000;
 }
