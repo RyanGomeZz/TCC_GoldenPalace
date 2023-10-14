@@ -1,23 +1,137 @@
+/*--------------------------------------------------------------------------cardapio romulo-----------------------------------------------------------------------------------*/
+
 .maincardapio{
     display: flex;
     position: relative;
     left: 5%;
-    height: 35%;
+    height: 30%;
     width: 90%;
     background-color: #000000bd;
     box-shadow: 6px -5px rgba(255, 217, 0, 0.568);
     padding: 1%;
     color: #ffffff;
-    padding-top: 5%;
+    
+    
+    
+  }
+  .bodycard{
+    background: linear-gradient(rgb(255, 178, 35) rgb(255, 217, 0, 0.568));
+    background-image: url(fundocard.avif);
+  }
+  .textos{
+    text-align: left;
+    position: relative;
+    left : 13%;
+    font-size: 95%;
+  }
+  .textos1{
+    text-align: left;
+    position: relative;
+    right: 3%;
+    font-size: 95%;
+  }
+  .textos2{
+    text-align: left;
+    position: relative;
+    left: 4%;
+    font-size: 95%;
+  }
+  .textos3{
+    text-align: left;
+    position: relative;
+    left: 13%;
+    font-size: 95%;
+  }
+  .textos4{
+    text-align: left;
+    position: relative;
+    left: 1%;
+    font-size: 95%;
+  }
+ h2{
+    text-decoration: underline;
   }
 .imagemcard img{
     position: relative;
-    right: 9%;
+    left: 10%;
+    width: 125%;
+    height: 90%;
+    border: 5px solid #000000;
+}
+.imagemcard2 img{
+    position: relative;
+    right: 2%;
+    width: 80%;
+    height: 90%;
+    border: 5px solid #000000;
+}
+.imagemcard3 img{
+    position: relative;
+    right: 5%;
+    width: 70%;
+    height: 90%;
+    border: 5px solid #000000;
+}
+.imagemcard4 img{
+    position: relative;
+    left: 15%;
+    width: 130%;
+    height: 85%;
+    border: 5px solid #000000;
+}
+.imagemcard5 img{
+    position: relative;
+    right: 12%;
     width: 60%;
-    height: 70%;
+    height: 90%;
     border: 5px solid #000000;
 }
 .categoria{
     position: relative;
-    left: 40%;
+    left: 45%;
 }
+.categoria2{
+    position: relative;
+    left: 8%;
+}
+.categoria3{
+    position: relative;
+    left: 20%;
+   
+}
+.categoria4{
+    position: relative;
+    left: 31%;
+   
+}
+.categoria5{
+    position: relative;
+    left: 15%;
+}
+.precos{
+    position: relative;
+    left: 37%;
+    padding-top: 10%;
+}
+.precos1{
+    position: relative;
+    left: 12%;
+    padding-top: 10%;
+}
+
+.precos2{
+    position: relative;
+    left: 1%;
+    padding-top: 10%;
+}
+.precos4{
+    position: relative;
+    left: 7%;
+    padding-top: 10%;
+}
+.precos5{
+    position: relative;
+    left: 22%;
+    padding-top: 10%;
+}
+
