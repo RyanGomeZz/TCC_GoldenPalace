@@ -638,3 +638,45 @@ textarea {
     border-radius: 4%;
     border: 5% solid #000000;
 }
+/*---------------------------------------------menu lateral--------------------------------------------------------*/
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: left;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    z-index: 10;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    padding: 10px;
+}
+.sidebar img{
+    border-radius: 100%;
+    border: 3px solid #ffffff;
+    width: 60%;
+    height: 25%;
+    margin-left: 15%;
+}
