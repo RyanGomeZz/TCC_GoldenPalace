@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Golden Palace</title>
+    <script>
+        function openSidebar() {
+            document.getElementById("mySidebar").style.width = "250px";
+        }
+    
+        function closeSidebar() {
+            document.getElementById("mySidebar").style.width = "0";
+        }
+    </script>
+</head>
+
+<body>
+    <!---------------------------------------------------------------menu Principal---------------------------->
+    <nav>
+
+        <a class="logo">Golden Palace</a>
+        <ul class="menuprime">
+            <li><a href="index-logado.html">Inicio</a></li>
+            <li><a href="reserva-logado.html"> Faça sua reserva</a></li>
+            <li><a href="Fale_Conosco-logado.html">Fale Conosco</a></li>
+            <li><a href="javascript:void(0)" onclick="openSidebar()">Minha Conta</a></li>
+        </ul>
+
+    </nav>
+<br><br><br><br><br>
+<!-------------------------------------Menu lateral----------------------------->
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+    <img src="user.png" alt="">
+    <a href="#">Meu Perfil</a>
+    <a href="reserva-logado.html">Reservas</a>
+    <a href="cardapio-logado.html">Cardapio</a>
+    <a class="sair" href="index.html">Sair</a>
+</div>
+    <br><br><br><br><br>
+    <div class="reserva-div">
+        <div>
+            <form action="">
+                <h1>Reserve Agora!!</h1>
+        </div>
+        <div>
+            <p>Nome:</p>
+
+            <input type="text" name="nome" placeholder="Digite seu Nome" id="">
+
+            <br>
+            <p>Quantidade de Pessoas:</p>
+
+            <select name="quantidade de pessoas" id="">
+                <option value="selecione">selecione</option>
+                <option value="1">1 Pessoa</option>
+                <option value="2">2 Pessoas</option>
+                <option value="3">3 Pessoas</option>
+                <option value="4">4 Pessoas</option>
+                <option value="5">5 Pessoas</option>
+                <option value="6">6 Pessoas</option>
+                <option value="7">7 Pessoas</option>
+                <option value="8">8 Pessoas</option>
+                <option value="9">9 Pessoas</option>
+                <option value="10">10 Pessoas</option>2
+            </select>
+
+            <br>
+
+            <p>Escolha Uma Data</p>
+            <input type="date" placeholder="Escolha Uma Data">
+            <br>
+            <p>Escolha um Horario</p>
+            <select name="" id="">
+                <option value="selecione">selecione</option>
+                <option value="10h">10:00</option>
+                <option value="11h">11:00</option>
+                <option value="12h">12:00</option>
+                <option value="13h">13:00</option>
+                <option value="14h">14:00</option>
+                <option value="15h">15:00</option>
+                <option value="16h">16:00</option>
+                <option value="17h">17:00</option>
+                <option value="18h">18:00</option>
+                <option value="19h">19:00</option>
+                <option value="20h">20:00</option>
+                <option value="21h">21:00</option>
+                <option value="22h">22:00</option>
+            </select>
+
+            <p>Algun pedido Especial?</p>
+            <input type="text" placeholder="Ex.: Aniversário, ocasiões especiais, etc.">
+            <br><br>
+            <button type="submit">
+                enviar
+            </button>
+            <button type="reset">
+                Limpar
+            </button>
+            </form>
+
+
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+    <footer class="rodape2">
+        <i class="fa-duotone fa-envelope"></i>
+        <img src="" alt="">
+        <small>
+            copyright@Golden Palace 2023
+        </small>
+    </footer>
+
+</html>

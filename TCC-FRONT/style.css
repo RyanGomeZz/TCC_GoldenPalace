@@ -494,7 +494,7 @@ footer {
     background-color: rgba(255, 217, 0, 0.805);
     color: #000000;
     box-shadow: none;
-    
+
 }
 
 textarea {
@@ -547,7 +547,11 @@ textarea {
     text-decoration: underline;
     text-decoration-color: #ffd700;
 }
-
+.confirm img {
+    width: 70%;
+    height: 50%;
+    margin-top: 15%;
+}
 /*--------------------------------------------------------------------------cardapio romulo-----------------------------------------------------------------------------------*/
 
 .maincardapio {
@@ -622,8 +626,9 @@ textarea {
         transform: scale(0.99)
     }
 }
+
 /*-----------------------------Fale Conosco-----------------------------------------*/
-.faleconosco{
+.faleconosco {
     color: #ffffff;
     background-color: #000000bd;
     box-shadow: 6px -5px rgba(255, 217, 0, 0.568);
@@ -631,13 +636,15 @@ textarea {
     width: 25%;
     position: relative;
     left: 37%;
-    border-radius: 3%;  
+    border-radius: 3%;
 
 }
-.faleconosco textarea{
+
+.faleconosco textarea {
     border-radius: 4%;
     border: 5% solid #000000;
 }
+
 /*---------------------------------------------menu lateral--------------------------------------------------------*/
 .sidebar {
     height: 100%;
@@ -658,7 +665,7 @@ textarea {
     z-index: 10;
     text-decoration: none;
     font-size: 18px;
-    color: #818181;
+    
     display: block;
     transition: 0.3s;
 }
@@ -673,10 +680,189 @@ textarea {
     left: 25px;
     padding: 10px;
 }
-.sidebar img{
+
+.sidebar img {
     border-radius: 100%;
     border: 3px solid #ffffff;
+    width: 90%;
+    height: 23%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.ftn:hover {
+    opacity: 100;
+}
+
+.sair {
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+    border-radius: 3%;
+}
+
+.sair:hover {
+    color: #ffffff;
+}
+
+/*--------------------------------------------------------------------------cardapio romulo-----------------------------------------------------------------------------------*/
+
+.maincardapio {
+    display: flex;
+    position: relative;
+    left: 5%;
+    height: 30%;
+    width: 90%;
+    background-color: #000000bd;
+    box-shadow: 6px -5px rgba(255, 217, 0, 0.568);
+    padding: 1%;
+    color: #ffffff;
+
+
+
+}
+
+.bodycard {
+    background: linear-gradient(rgb(255, 178, 35) rgb(255, 217, 0, 0.568));
+    background-image: url(fundocard.avif);
+}
+
+.textos {
+    text-align: left;
+    position: relative;
+    left: 13%;
+    font-size: 95%;
+}
+
+.textos1 {
+    text-align: left;
+    position: relative;
+    right: 3%;
+    font-size: 95%;
+}
+
+.textos2 {
+    text-align: left;
+    position: relative;
+    left: 4%;
+    font-size: 95%;
+}
+
+.textos3 {
+    text-align: left;
+    position: relative;
+    left: 13%;
+    font-size: 95%;
+}
+
+.textos4 {
+    text-align: left;
+    position: relative;
+    left: 1%;
+    font-size: 95%;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.imagemcard img {
+    position: relative;
+    left: 10%;
+    width: 125%;
+    height: 90%;
+    border: 5px solid #000000;
+}
+
+.imagemcard2 img {
+    position: relative;
+    right: 2%;
+    width: 80%;
+    height: 90%;
+    border: 5px solid #000000;
+}
+
+.imagemcard3 img {
+    position: relative;
+    right: 5%;
+    width: 70%;
+    height: 90%;
+    border: 5px solid #000000;
+}
+
+.imagemcard4 img {
+    position: relative;
+    left: 15%;
+    width: 130%;
+    height: 85%;
+    border: 5px solid #000000;
+}
+
+.imagemcard5 img {
+    position: relative;
+    right: 12%;
     width: 60%;
-    height: 25%;
-    margin-left: 15%;
+    height: 90%;
+    border: 5px solid #000000;
+}
+
+.categoria {
+    position: relative;
+    left: 45%;
+}
+
+.categoria2 {
+    position: relative;
+    left: 8%;
+}
+
+.categoria3 {
+    position: relative;
+    left: 20%;
+
+}
+
+.categoria4 {
+    position: relative;
+    left: 31%;
+
+}
+
+.categoria5 {
+    position: relative;
+    left: 15%;
+}
+
+.precos {
+    position: relative;
+    left: 37%;
+    padding-top: 10%;
+}
+
+.precos1 {
+    position: relative;
+    left: 12%;
+    padding-top: 10%;
+}
+
+.precos2 {
+    position: relative;
+    left: 1%;
+    padding-top: 10%;
+}
+
+.precos4 {
+    position: relative;
+    left: 7%;
+    padding-top: 10%;
+}
+
+.precos5 {
+    position: relative;
+    left: 22%;
+    padding-top: 10%;
+}
+
+.card {
+    color: #ffffff;
 }

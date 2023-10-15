@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" type="png" href="abu.webp">
+    <link href='https://fonts.googleapis.com/css?family=GFS Didot' rel='stylesheet'>
+    <title>Golden Palace</title>
+    <script>
+        function openSidebar() {
+            document.getElementById("mySidebar").style.width = "250px";
+        }
+    
+        function closeSidebar() {
+            document.getElementById("mySidebar").style.width = "0";
+        }
+    </script>
+</head>
+
+<body>
+    <!---------------------------------------------------------------menu Principal---------------------------->
+    <nav>
+
+        <a class="logo">Golden Palace</a>
+        <ul class="menuprime">
+            <li><a href="index-logado.html">Inicio</a></li>
+            <li><a href="reserva-logado.html"> Faça sua reserva</a></li>
+            <li><a href="Fale_Conosco-logado.html">Fale Conosco</a></li>
+            <li><a href="javascript:void(0)" onclick="openSidebar()">Minha Conta</a></li>
+        </ul>
+
+    </nav>
+    <br><br><br><br><br>
+    <!-------------------------------------Menu lateral----------------------------->
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+        <img src="user.png" alt="">
+        <a href="#">Meu Perfil</a>
+        <a href="reserva-logado.html">Reservas</a>
+        <a href="cardapio-logado.html">Cardapio</a>
+        <a class="sair" href="index.html">Sair</a>
+    </div>
+    <br><br><br><br><br>
+
+    <div class="faleconosco">
+        <h1>
+            Fale Conosco
+        </h1>
+        <form action="">
+
+            <p>Nome:</p>
+            <input type="text" required name="" placeholder="Digite Seu Nome"  id="">
+            <p>Email:</p>
+            <input type="email" required name="" placeholder="Digite Seu E-mail" id="">
+            <p>Telefone:</p>
+            <input type="tel" required name="" placeholder="Digite Seu telefone" id="">
+            <p>CPF:</p>
+            <input type="number" required name="" placeholder="Digite Seu CPF" id="">
+            <p>Escolha Uma Opção:</p>
+            
+            <select name="Escolha" id="" >
+                <option value="s">selcione</option> 
+                <option value="e">Elogio</option>
+                <option value="r">Reclamação</option>
+                <option value="su">Sugestão</option>
+            </select>
+            <br>
+            <p>Escreva Aqui:</p>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Escreva Aqui!!!"></textarea>
+            <br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+            <br><br>
+        </form>
+
+    </div>
+
+    <!-------------------------------------rodape----------------------------->
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br>
+    <footer class="rodape">
+
+
+        <small>
+            copyright@Golden Palace 2023
+        </small>
+    </footer>
+
+</html>
