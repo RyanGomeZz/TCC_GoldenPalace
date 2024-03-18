@@ -3,8 +3,13 @@
     border: solid 1px black;
     align-items: end;
     margin-right: 3px;
-    border-radius: 5%;
+   
 }
+
+.nav-item-3{
+    color: #000000;
+}
+
 
 .navbar-collapse {
     text-align: center;
@@ -24,7 +29,7 @@
 
 .cards-inicio {
     display: flex;
-    border-top: 0.3vh solid rgb(255, 0, 0);
+
 
 
 }
@@ -51,6 +56,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: #e97878;
 
 
 
@@ -70,8 +76,52 @@ footer {
     padding: 1%;
     color: #ffffff;
     width: 100%;
-    position: absolute;
-    bottom: 100%;
-    left: 0;
+
+
+
+}
+
+footer ul {
+    list-style: none;
+
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+.RedesSociais img {
+
+    width: 2%;
+    height: 2%;
+
+
+
+
+}
+
+.RedesSociais img:hover {
+    opacity: 50%;
+
+}
+
+.footer ul {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer li {
+    margin: 1%;
+}
+
+main {
+    background: linear-gradient(rgb(167, 122, 41), rgb(255, 174, 0));
+    padding: 2%;
+    color: #ffffff;
 
 }
