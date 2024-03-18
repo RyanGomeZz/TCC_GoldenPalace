@@ -1,0 +1,21 @@
+.nav-item-2 {
+    color: #000000;
+    border: solid 1px black;
+    align-items: end;
+    margin-right: 3px;
+    border-radius: 5%;
+}
+
+.navbar-collapse {
+   text-align: center;
+   justify-content: end;
+   align-items: flex-end;
+   
+}
+.bg-light-2{
+    background-color: #93ff07a9;
+    color: #ffffff;
+}
+.w-100{
+    margin-top: -15%;
+}
