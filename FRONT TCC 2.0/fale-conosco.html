@@ -74,7 +74,7 @@
     </nav>
     <main class="page">
       <div>
-        <form method="POST" class="formCadastro" onsubmit="return validar()" name="faleconosco">
+        <form method="POST" class="formCadastro" onsubmit="return validarFaleConosco() " name="faleconosco">
           <h1>Fale-Conosco</h1>
 
           <p>Preencha os dados abaixo para enviar o seu comentario.</p>
@@ -88,7 +88,7 @@
           <input type="email" placeholder="Digite seu e-mail" id="emailfc" autofocus="true" />
 
           <label for="Telefone">Telefone:</label>
-          <input type="tel" id="telfc" placeholder="(xx) xxxxx-xxxx" autofocus="true" />
+          <input type="tel" id="telfc" onkeyup="handlePhone(event)" placeholder="(xx) xxxxx-xxxx" autofocus="true" />
 
           <label for="select">Tipo de comentario: </label>
           <select name="Selecione" id="select">

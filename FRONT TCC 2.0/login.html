@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -6,10 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!--Biblioteca de icones-->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-   integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-   crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Biblioteca de icones-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Chamada do nosso CSS -->
   <link rel="stylesheet" href="style.css">
   <!-- Chamada da CSS do BS -->
@@ -23,7 +22,7 @@
 <body>
   <header>
     <!-- Menu principal (nav-bar) -->
-   
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">
         <img src="img/logo.png" width="70" height="70" class="d-inline-block align-top" alt="">
@@ -73,62 +72,62 @@
     </nav>
     <main class="page">
       <div>
-        <form method="POST" class="formLogin">
-            <h1>Login</h1>
-            <p>Digite os seus dados de acesso no campo abaixo.</p>
-            <label for="email">E-mail:</label>
-            <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
-            <label for="password">Senha:</label>
-            <input type="password" placeholder="Digite Sua Senha " />
-            <a href="/">Esqueci minha senha</a>
-            <input type="submit" value="Acessar" class="btn-3" />
+        <form method="POST" class="formLogin" onsubmit="return validar()">
+          <h1>Login</h1>
+          <p>Digite os seus dados de acesso no campo abaixo.</p>
+          <label for="email">E-mail:</label>
+          <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
+          <label for="password">Senha:</label>
+          <input type="password" placeholder="Digite Sua Senha " />
+          <a href="/">Esqueci minha senha</a>
+          <input type="submit" value="Acessar" class="btn-3" />
         </form>
-    </div>
+      </div>
     </main>
     <footer>
       <div id="footer_content">
-          <div id="footer_contacts">
-              <h1>Golden Palace</h1>
-              <p>Para momentos especiais</p>
+        <div id="footer_contacts">
+          <h1>Golden Palace</h1>
+          <p>Para momentos especiais</p>
 
-              <div id="footer_social_media">
-                  <a href="#" class="footer-link" id="instagram">
-                      <i class="fa-brands fa-instagram"></i>
-                  </a>
+          <div id="footer_social_media">
+            <a href="#" class="footer-link" id="instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
 
-                  <a href="#" class="footer-link" id="facebook">
-                      <i class="fa-brands fa-facebook-f"></i>
-                  </a>
+            <a href="#" class="footer-link" id="facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
 
-                  <a href="#" class="footer-link" id="whatsapp">
-                      <i class="fa-brands fa-whatsapp"></i>
-                  </a>
-              </div>
+            <a href="#" class="footer-link" id="whatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
           </div>
-          
-          <ul class="footer-list">
-              
-              <li>
-                  <a href="#" class="footer-link">Quem Somos</a>
-              </li>
-              <li>
-                  <a href="#" class="footer-link">Trabalhe Conosco</a>
-              </li>
-              <li>
-                  <a href="#" class="footer-link">fale-conoscoo</a>
-              </li>
-          </ul>
+        </div>
 
-         
+        <ul class="footer-list">
 
-         
+          <li>
+            <a href="#" class="footer-link">Quem Somos</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Trabalhe Conosco</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">fale-conoscoo</a>
+          </li>
+        </ul>
+
+
+
+
       </div>
 
       <div id="footer_copyright">
-          &#169
-          2024 Golden Palace all rights reserved
+        &#169
+        2024 Golden Palace all rights reserved
       </div>
-  </footer>
+    </footer>
     <!-- JS do Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
