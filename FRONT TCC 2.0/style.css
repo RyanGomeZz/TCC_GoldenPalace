@@ -59,6 +59,7 @@ main {
 
 }
 
+
 .cards-inicio div {
 
     margin: 1%;
@@ -69,10 +70,65 @@ main {
 }
 
 .cards-inicio div a img {
-    width: 100% !important;
-    height: 100% !important;
+    width: 32vh !important;
+    height:20vh !important;
     border-radius: 8%;
 
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .cards-inicio div a img {
+        width: 29vh !important;
+        height:10vh !important;
+        border-radius: 8%;
+    
+    }
+    
+    
+    .cards-promo  {
+
+        
+        margin: 0%;
+        padding: 0%;
+        
+    }
+
+    .cards-promo div img {
+
+
+        width: 35vh;
+        height: 12vh;
+
+    }
+    
+    
+}
+
+@media screen and (max-width:468px) {
+
+    .cards-inicio div a img {
+        width: 29vh !important;
+        height:7vh !important;
+        border-radius: 8%;
+    
+    }
+
+   
+    
+}
+
+
+@media screen and (min-width:860px) {
+
+    .cards-promo{
+        padding: 5%;
+    }
+
+   
+    
 }
 
 .cards-promo {
@@ -84,17 +140,25 @@ main {
     background-color: #991a1a;
     width: 100%;
     height: 100%;
-    padding: 5%;
+   
 
 
 
 }
 
+.cards-promo div {
+
+    margin: 1vh;
+
+
+}
+
 .cards-promo img {
-    width: 100%;
-    height:100%;
-    border-radius: 19%;
-    padding: 10%;
+   
+    border-radius: 10%;
+    border: 0;
+    
+  
 }
 
 /*------------------------footer---------------------------------*/
@@ -248,8 +312,9 @@ footer {
 
 @media screen and (max-width: 426px) {
     #footer_content {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(10, 1fr);
         padding: 3rem 2rem;
+        
     }
 }
 
