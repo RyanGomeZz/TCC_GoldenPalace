@@ -1,0 +1,97 @@
+/*-----------------CARDAPIO---------------------*/
+.conteinerCardapio {
+    background-color: #ffffff;
+    border-radius: 2%;
+    box-shadow: 6px -5px rgba(255, 217, 0, 0.568);
+    margin-top: 10%;
+    margin: 4%;
+    padding: 1%;
+    text-align: center;
+    justify-content: center;
+  
+}
+
+.mainclassR {
+    background: linear-gradient(90deg, rgba(242, 81, 45, 1) 6%, rgba(242, 237, 45, 1) 100%);
+    display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 2rem;
+
+}
+
+.ftcard {
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}
+
+
+@media screen and (max-width: 1177px) {
+    .mainclassR {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+    }
+
+    .conteinerCardapio {
+        
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+
+}
+
+@media screen and (max-width: 575PX) {
+    .mainclassR {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin: 0%  !important;
+        padding: 0% !important;
+    }
+
+    .conteinerCardapio {
+        
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width: 420PX) {
+    .mainclassR {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin: 0%  !important;
+        padding: 0% !important;
+    }
+
+    .conteinerCardapio {
+        
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+}
+.classificação{
+
+
+text-align: center;
+width: 100%;
+height: 10%;
+background-color: #000000ad;
+color: #ffffff;
+}
