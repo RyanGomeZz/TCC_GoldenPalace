@@ -193,3 +193,38 @@ if(senhaConf == ""){
 
 
 }
+
+
+function validarEmail(){
+   
+    var email = document.getElementById("emailpg1").value;
+  
+   if  (email == "") {
+    window.alert("informe o email");
+    document.getElementById("emailpg1").focus();
+    document.getElementById("emailpg1").style.borderColor = "#ff0000";
+    return false
+}
+
+ 
+  
+
+}
+
+
+function esqueciMinhaSenha() {
+
+
+var senha = document.getElementById("senhapg2").value;
+var senha2 = document.getElementById("senha2pg2").value;
+
+
+
+ if (senhapg2 != senha2pg2){
+    window.alert("Senhas não coincidem");
+    document.getElementById("senha2pg2").focus();
+    document.getElementById("senha2pg2").style.borderColor = "#ff0000";
+    return false
+}
+
+}
